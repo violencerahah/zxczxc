@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #ABB2B9;
+}
+.box {
+  background-color: #ffffff;
+  width: 500px;
+  height: 420px;
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+.inside_box1{
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 180px;
+}
+.inside_box2{
+  margin-left: 210px;
+}
+.img {
+  margin-left: 175px;
+  border-radius: 10px;
+}
+.box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.stoymost {
+  margin-left: 195px;
+  color: black;
+  font-size: 14pt;
+}
+.buy {
+  margin-bottom: 15px;
+  margin-right: 205px;
+  color: black;
+  background-color: #160ca1;
+  border-radius: 10px;
+  border: 0;
+}
